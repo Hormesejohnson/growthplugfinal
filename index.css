@@ -106,11 +106,14 @@ margin-left: 20px;
 .container{
     font-size: 20px;
     
+    
 
 }
 #doctor{
     background-color: rgb(255, 253, 208);
     margin-top: 250px;
+    
+    
 }
 #service{
     margin-top: 40px;
@@ -118,7 +121,7 @@ margin-left: 20px;
     color:black;
     display:inline-block;
     position:relative;
-  margin-left: 700px; 
+  margin-left: 650px; 
  margin-bottom: 100px;
     
 }
@@ -270,7 +273,7 @@ z-index: 100;
     display:inline-block;
     position:relative;
     margin-left: 550px;
-    margin-top: 20px;;
+    margin-top: 100px;;
   
  
     
@@ -401,8 +404,33 @@ z-index: 100;
       margin-left:  420px;
       margin-top:-500px;
   }
+  #image2{
+      margin-bottom: 450px;
+  }
+  #doctordetails{
+      margin-top: -800px;
+      margin-left: 450px;
+  }
+#drli
+{
+    margin-top: 300px;
+}
+#hebb{
+    margin-top: 50px;
+}
+#img1{
+    margin-top: 200px;
+}
 
-
+  #doctorpicture{
+      margin-top: 300px;
+  }
+  #insurancefull{
+      margin-top: 100px;
+  }
+  #loctionfull{
+      margin-top: 50px;
+  }
 
   
 
