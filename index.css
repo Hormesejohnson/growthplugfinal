@@ -1,0 +1,383 @@
+.navbar {
+    width: 100%;
+    background-color: whitesmoke;
+    
+        width: 100%;
+      
+      
+        position: fixed;
+        top: 0px;
+        width: 100%;
+      
+        
+        font-weight: 700;
+        z-index: 500;
+      }
+      
+      #navcontents {
+        font-size: larger;
+        font-weight: 700;
+        padding:10px 0px;
+        margin: 0 30px;
+      }
+      #navbar2{
+          margin-left: 50px;
+          color: black;
+      }
+      #navbar1{
+          margin-left: 40px;
+      }
+      
+   
+#on{
+    
+    
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color:rgb(53, 94, 59);
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: solid;
+        cursor: pointer;
+        border-radius: 20px;
+      }
+      #image{
+          margin-top: -500px;
+       /* margin-left:-auto; */
+      }
+#para{
+    margin-top: -300px;
+    margin-left: 600px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    color:rgb(53, 94, 59)
+}
+#back{
+    height: 100%;
+    width: 100%;
+}
+#welcome{
+    margin-top: 300px;
+    margin-left: 700px;
+}
+h2{
+    margin-top: 300px;
+    text-align: center; 
+    
+}
+h4{
+    text-align: center;
+}
+#wel{
+width: 30%;
+border-radius: 5px;
+background-color:white;
+color: black; 
+margin-top: 10px;
+margin-left:50px;
+
+
+} 
+#well{
+    width: 30%;
+border-radius: 5px;
+background-color:white;
+color: black;
+
+margin-top: 10px;
+margin-left: 20px;
+
+}
+#well2{
+    width: 30%;
+    border-style: solid;
+    border-radius: 5px;
+  
+    color: black;
+    
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: rgb(53, 94, 59);
+}
+.container{
+    font-size: 20px;
+    
+
+}
+#doctor{
+    background-color: rgb(255, 253, 208);
+    margin-top: 250px;
+}
+#service{
+    margin-top: 40px;
+    text-align: center;
+    color:black;
+    display:inline-block;
+    position:relative;
+  margin-left: 700px; 
+ margin-bottom: 100px;
+    
+}
+ #service:after{
+    content:'';
+    height:2px;
+    width:20%;
+    background:#f24432;
+    position:absolute;
+    left:calc(50% - 10%);
+    bottom:-5px;
+    
+} 
+
+#service1{
+    width: 100%;
+    background-color: rgb(255, 253, 208);
+    color: black;
+    font-size: 30px;
+    font-style: bold;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+
+/* #services12{
+width: 100%;
+background-color:lightsteelblue;
+color: black;
+font-size: 30px;
+font-style: bold; */
+
+#service2{
+width: 100%;
+
+background-color: rgb(255, 253, 208);
+color: black;
+font-size: 30px;
+font-style: bold;
+margin-bottom: 20px;
+}
+#doctorpicture{
+    background-color: rgb(255, 253, 208);
+   margin-top: 100px;
+   
+    height: 100%;
+    width:100%;
+/*     
+    margin-right: 200px; */
+}
+ #doc{
+   margin-left: -100px;
+  text-align: center;
+  margin-top: -05px;
+  color: green;
+  font-style:initial
+}
+#doc1{
+    /* margin-left: 9px; */
+    color: green;
+} 
+#pichead{
+ /* margin-left: 450px; */
+ 
+ color:gray;
+ display:inline-block;
+ position:relative;
+  margin-left: 450px; 
+ text-align: center;
+ margin-top: 00px;
+ margin-bottom: 20px;
+}
+
+
+#pichead:after{
+    content:'';
+    height:3px;
+    width: 20%;
+    background:#f24432;
+    position:absolute;
+    left:calc(50% - 10%);
+    bottom:-5px;
+    
+} 
+.parallax{
+    margin-top: 200px;
+background-image: url("2019_10_10_EwingRon11_A.jpg");
+                                                                                        
+/* Set a specific height */
+ height:100%;
+ width: 100%;
+
+
+ 
+
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: fixed;
+background-repeat: no-repeat;
+background-size:100%;
+z-index: 100;
+ padding-top: 30px;
+ position: relative;
+ color: white;
+
+}
+#parallaxheader{
+    text-align: center;
+}
+#parallaxcontent{
+    padding: 30px;
+
+    border: solid 1px;
+  
+    margin: 20px auto;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+}
+ .insurance {
+    font-size: 25px;
+    text-align: center;
+    
+    font-weight: 200;
+    background-color: #f9fbfa;
+    padding-top: 30px;
+} 
+#underline{
+    color:black;
+    display:inline-block;
+    position:relative;
+    margin-left: 550px;
+    margin-bottom: 50px;
+    
+  }
+  #underline:after{
+    content:'';
+    height:2px;
+    width:20%;
+    background:#f24432;
+    position:absolute;
+    left:calc(50% - 10%);
+    bottom:-5px;
+    
+  
+  }
+  #underline2{
+    color:black;
+    display:inline-block;
+    position:relative;
+    margin-left: 550px;
+    margin-top: 20px;;
+  
+ 
+    
+  }
+  #underline2:after{
+    content:'';
+    height:2px;
+    width:20%;
+    background:#f24432;
+    position:absolute;
+    left:calc(50% - 10%);
+    bottom:-5px;
+    
+  
+  }
+ 
+  
+  #wholepicture{
+      margin-top: -100px;
+  }
+  .footimage{
+      
+
+    border:1px solid black;
+    border-radius:  20px; 
+  }
+  .footimage2{
+      margin-top: 20px;
+      margin-right: -20px;
+      border:1px solid black;
+     
+  }
+  #underlineins{
+    color:black;
+    display:inline-block;
+    position:relative;
+     margin-left: 550px; 
+    margin-top: 80px;
+
+  }
+   #underlineins:after{
+    content:'';
+    height:2px;
+    width:20%;
+    background:#f24432;
+    position:absolute;
+    left:calc(50% - 10%);
+    bottom:-5px;
+    /* margin-left: -450px; */
+   
+     
+  }
+  .foot__end {
+    margin-top: 30px;
+    background-color: #007357;
+    color: rgb(247, 247, 247);
+    text-align: center;
+    padding: 15px;
+  }
+  .mapouter {
+    display: flex;
+    justify-content: center;
+    position:relative;text-align:right;height:500px;width:100%;
+    
+    overflow: hidden;
+  }
+  .location{
+      margin-left: 1300px;
+      margin-top: 0px;
+  }
+  #locationheading{
+      margin-bottom: 100px;
+      color:black;
+      display:inline-block;
+      position:relative;
+       margin-left: 600px; 
+      margin-top: 80px;
+  }
+  #locationheading:after{
+    content:'';
+    height:2px;
+    width: 30%;
+    background:#f24432;
+    position:absolute;
+    left:calc(50% - 10%);
+    bottom:-5px;
+    
+   
+  }
+  #insurancecontent{
+      margin-left: 200px;
+  }
+  .insurancepics{
+      margin-top: 30px;
+}
+.drop{
+    margin-left: 55px;
+    color: black;
+}
+
+
+
+  
+
+  
+
+  
+
+  
+  
