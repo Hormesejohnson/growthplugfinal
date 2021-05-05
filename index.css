@@ -370,6 +370,32 @@ z-index: 100;
     margin-left: 55px;
     color: black;
 }
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+    
+    font-weight: 700;
+    z-index: 500;
+  }
+  
+  .nav__content {
+    font-size: larger;
+    font-weight: 500;
+    padding:10px 0px;
+    margin: 0 30px;
+  }
+  
+  .dropdown-item {
+    font-weight: 500px;
+  }
+  
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+    font-weight: 500;
+  }
+  
 
 
 
