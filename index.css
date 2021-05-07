@@ -12,6 +12,7 @@
         
         font-weight: 700;
         z-index: 500;
+         transition: 0.4s 
       }
       
       #navcontents {
@@ -295,7 +296,18 @@ z-index: 100;
     position:relative;
     
     margin-bottom: 50px;
+    transition: width 2s
+    
+      
    
+    
+  }
+  #underline:hover{
+    
+   
+
+ box-shadow: 0 5px 15px blueviolet;
+
     
   }
   #underline:after{
@@ -306,6 +318,7 @@ z-index: 100;
     position:absolute;
     left:calc(50% - 10%);
     bottom:-5px;
+
     
   
   }
