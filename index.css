@@ -32,9 +32,9 @@
 #on{
     
     
-        position: absolute;
+         position: absolute;
         top: 90%;
-        left: 50%;
+        left: 50%; 
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         background-color:rgb(53, 94, 59);
@@ -44,17 +44,28 @@
         border: solid;
         cursor: pointer;
         border-radius: 20px;
+        flex: display;
+        align-items: center;
+
+        
       }
       #image{
           margin-top: -500px;
        /* margin-left:-auto; */
       }
 #para{
-    margin-top: -300px;
-    margin-left: 600px;
+   
+   
+     
+    
+       margin-top: 70px; 
+      
     font-family: 'Exo 2', sans-serif;
     font-size: 40px;
-    color:rgb(53, 94, 59)
+    color:rgb(53, 94, 59);
+    
+
+        
 }
 #back{
     height: 100%;
@@ -99,9 +110,11 @@ margin-left: 20px;
   
     color: black;
     
-    margin-top: 10px;
-    margin-left: 20px;
+     
+    
     background-color: rgb(53, 94, 59);
+    
+
 }
 .container{
     font-size: 20px;
@@ -121,18 +134,18 @@ margin-left: 20px;
     color:black;
     display:inline-block;
     position:relative;
-  margin-left: 650px; 
+  margin-left: 10px;
  margin-bottom: 100px;
     
 }
  #service:after{
     content:'';
     height:2px;
-    width:20%;
+    width:5%;
     background:#f24432;
     position:absolute;
-    left:calc(50% - 10%);
-    bottom:-5px;
+    left:calc(50% - 2%);
+    bottom:-1px;
     
 } 
 
@@ -154,22 +167,33 @@ font-size: 30px;
 font-style: bold; */
 
 #service2{
-width: 100%;
+width: 80%;
 
-background-color: rgb(255, 253, 208);
+ background-color: whitesmoke;
 color: black;
-font-size: 30px;
+font-size: 12px;
 font-style: bold;
 margin-bottom: 20px;
+display: flex;
+ flex-direction:column-reverse;
+align-items: center;
+margin-left: 100px;
+
+
 }
 #doctorpicture{
     background-color: rgb(255, 253, 208);
-   margin-top: 100px;
    
-    height: 100%;
+   
+    height: 1400px;
     width:100%;
-/*     
-    margin-right: 200px; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
  #doc{
    margin-left: -100px;
@@ -185,24 +209,32 @@ margin-bottom: 20px;
 #pichead{
  /* margin-left: 450px; */
  
- color:gray;
+ color:black;
  display:inline-block;
  position:relative;
-  margin-left: 450px; 
- text-align: center;
- margin-top: 00px;
- margin-bottom: 20px;
+  
+  
+  
+ margin-top:  -100px;
+ margin-bottom: 300px;
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ 
 }
 
 
 #pichead:after{
     content:'';
-    height:3px;
-    width: 20%;
-    background:#f24432;
+    height:1px;
+    width: 5%;
+    background:red;
     position:absolute;
-    left:calc(50% - 10%);
-    bottom:-5px;
+    left:calc(47% - 0%);
+    bottom:-3px;
+  
     
 } 
 .parallax{
@@ -210,7 +242,8 @@ margin-bottom: 20px;
 background-image: url("2019_10_10_EwingRon11_A.jpg");
                                                                                         
 /* Set a specific height */
- height:100%;
+ height: 100%;
+ 
  width: 100%;
 
 
@@ -253,8 +286,9 @@ z-index: 100;
     color:black;
     display:inline-block;
     position:relative;
-    margin-left: 550px;
+    
     margin-bottom: 50px;
+   
     
   }
   #underline:after{
@@ -271,21 +305,21 @@ z-index: 100;
   #underline2{
     color:black;
     display:inline-block;
-    position:relative;
-    margin-left: 550px;
+     position:relative; 
+    /* margin-left: 550px;
     margin-top: 100px;;
-  
+   */
  
     
   }
   #underline2:after{
     content:'';
-    height:2px;
-    width:20%;
+    height:1px;
+    width: 10%;
     background:#f24432;
     position:absolute;
-    left:calc(50% - 10%);
-    bottom:-5px;
+    left:calc(50% - 5%);
+    bottom: -3px;
     
   
   }
@@ -311,18 +345,23 @@ z-index: 100;
     color:black;
     display:inline-block;
     position:relative;
-     margin-left: 550px; 
-    margin-top: 80px;
+     /* margin-left: 600px;  */
+     margin-top: -90px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12px auto;
 
   }
    #underlineins:after{
     content:'';
     height:2px;
-    width:20%;
+    width:4%;
     background:#f24432;
     position:absolute;
-    left:calc(50% - 10%);
-    bottom:-5px;
+    left:calc(50% - 3%);
+    bottom:-8px;
     /* margin-left: -450px; */
    
      
@@ -333,6 +372,11 @@ z-index: 100;
     color: rgb(247, 247, 247);
     text-align: center;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    margin: 12px auto;
   }
   .mapouter {
     display: flex;
@@ -340,10 +384,17 @@ z-index: 100;
     position:relative;text-align:right;height:500px;width:100%;
     
     overflow: hidden;
+    margin-top: 50px;
   }
   .location{
       margin-left:  650px;
       margin-top:;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+      margin: 12px auto;
+
       
   }
   #locationheading{
@@ -351,25 +402,47 @@ z-index: 100;
       color:black;
       display:inline-block;
       position:relative;
-       margin-left: 600px; 
-      margin-top: 80px;
+       /* margin-left: 650px;  */
+      /* margin-top: 100px; */
+      display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 12px auto;
+  margin-top: 100px;
+
+
+
+  
+
   }
   #locationheading:after{
     content:'';
     height:2px;
-    width: 30%;
+    width: 2%;
     background:#f24432;
     position:absolute;
-    left:calc(50% - 10%);
+    left:calc(50% - 1%);
     bottom:-5px;
     
    
   }
   #insurancecontent{
-      margin-left: 200px;
+      /* margin-left: 200px; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+      /* margin: 12px auto; */
+      margin-top: 30px;
   }
   .insurancepics{
       margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center
+
 }
 .drop{
     margin-left: 55px;
@@ -401,15 +474,18 @@ z-index: 100;
     font-weight: 500;
   }
   #image0{
-      margin-left:  420px;
-      margin-top:-500px;
+      /* margin-left:  420px;
+      margin-top:-500px; */
+      display:flex;
+      /* position: fixed; */
+      justify-content:center;
   }
   #image2{
-      margin-bottom: 450px;
+      margin-bottom:100px;
   }
   #doctordetails{
-      margin-top: -800px;
-      margin-left: 450px;
+       margin-top: -800px;
+      margin-left: 450px; 
   }
 #drli
 {
@@ -431,12 +507,138 @@ z-index: 100;
   #loctionfull{
       margin-top: 50px;
   }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  #wholedoctorpics{
+      margin-top: 100px;
+      margin-left: 100px;
+  }
+  .image1{
 
   
+  width: 100%;
+  margin: auto;
 
+  height: 100vh;
+
+  background-position: center;
+
+  background-size: cover;
+
+  text-align: center;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(shutterstock_1054706129.jpg);
+  }
+  .content__center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .patient__buttons{
+      
+      width: 400px;
+border-radius: 5px;
+
+
+margin-top: 10px;
+
+
+
+  }
+  .button__center{
+      text-align: center;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 20px;
+  }
+  #hebb{
+      font-size: 20px;
+  }
+  .doctordetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  display: inline-block;
+
+  }
+  #underline2{
+    
+    
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 025px;
+  
+    
+  
+  }
+  #drli{
+      margin-top: -90px;
+  }
+.wholepicture{
+    margin-top: -200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.dr__names {
+  color: rgb(20, 121, 0);
+  text-align: center;
+}
+
+.dr_name_sub {
+  text-align: center;
+  
+  
   
 
+}
+.drpicturediv {
+ 
   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+  margin: 12px auto;
+
+}
+#insurancelast{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 12px auto;
+}
+/* #locationfull{
+  margin-top: 200px;
+} */
+
+  
+#service{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+  /* margin: 12px auto; */
+}
+#serviceboxes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
   
   
